@@ -1,0 +1,435 @@
+
+.root{
+    font-family:"ITC Avant Garde",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+
+}
+a{
+    font-family:"ITC Avant Garde",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; ;
+    color: #032d60;
+    font-size: 18px;
+}
+a:hover{
+    color: #0176d3;
+}
+
+h1{  
+font-family: "Poppins","Poppins variant0", Tofu;;
+color:#032d60;
+font-size: 30px;
+font-stretch: normal;
+  
+    font-family:"ITC Avant Garde",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
+h4{
+    color:#032d60;
+    font-size: 20px;
+      
+        font-family:"ITC Avant Garde",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" 
+}
+.navbar{
+    height:90px;
+    /* border: 2px solid red; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:"ITC Avant Garde",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+    /* background-color: rgb(201, 225, 237); */
+}
+.left{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.left li {
+    display: inline;
+  
+}
+.left li a{
+    color: rgb(33 54 115);
+    font-size: 18px;
+    margin: 6px;
+    display: inline;
+    font-weight: bolder;
+    padding: 6px;
+    
+}
+.left li a:hover{
+    color: #0176d3;
+}
+.left a{
+    text-decoration: none;
+    padding: 2px;
+    margin: 8px;
+    display: inline;
+
+}
+.right{
+    margin-left: 57px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+}
+/* .right a{
+color: grey;
+margin: 10px;
+font-size: 20px;
+} */
+.right img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+}
+.button{
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid green ;
+   border-collapse: collapse;
+   margin-left: 4px;
+   cursor: pointer;
+   font-weight: bolder;
+
+}
+.button:hover{
+    background-color: black;
+    border: 2px solid black;;
+    border-collapse: collapse;
+}
+/* nav2 */
+.nav2{
+    height: 45px;
+    /* background-color: rgb(3, 19, 90);
+    background-color: #080707; */
+    background-color:#032D60;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 4px;
+    font-family:"ITC Avant Garde",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+
+}
+.nav2 img{
+    width: 90px;
+    height: 40px;
+    margin-right: 14px;
+}
+.nav2 a{
+    color: white;
+    cursor: pointer;
+    margin: 12px;
+}
+/* home */
+.home{
+    /* background-image: url(images3/back.jpg);
+    background:no-repeat center center; */
+    background: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/04/php-marqee-ai-data-crm-lg-bg.jpg?w=1024") no-repeat center center/cover ;
+    background-blend-mode: luminosity;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 100vh;
+    opacity: 0.9;
+    z-index: -1;
+}
+#text{
+    width: 800px;
+    height: 400px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px;
+}
+/* buttons of  home text */
+#btn1{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color:#0176d3;
+    border:#0176d3;
+    border-collapse: collapse;
+    cursor: pointer;
+    margin: 4px;
+    display: inline;
+    border-radius: 4px;
+    font-weight: bolder;
+cursor:pointer ;
+}
+#btn1:hover{
+    background-color: #032D60;
+}
+#btn2{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: #0176d3;
+    padding:4px;
+    background-color:white;
+    border: 2px groove #0176d3;
+    border-collapse: collapse;
+    cursor: pointer;
+    margin: 4px;
+    display: inline;
+    border-radius: 4px;
+    cursor:pointer ;
+    font-weight: bolder;
+}
+#btn2:hover{
+    border:  2px groove #032D60;
+    color: #032D60;
+}
+#img{
+    width: 900px;
+    height: 400px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+#img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+   
+}
+/* courses section */
+#courses{
+    height: 600px;
+    /* border: 2px solid red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?w=1024")no-repeat center center/cover;
+    /* center/cover  */
+    
+}
+#cards-outer{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.cards{
+    margin-top: 60px;
+    display: inline-block;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    height: 350px;
+    width: 250px;
+    margin:13px;
+    border-radius: 18px;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+.cards img{
+    width: 250px;
+    height: 120px;
+    border-radius: 18px;
+}
+.cards a{
+    text-align: end;
+}
+/* info section */
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    /* border: 2px solid red; */
+    background-color: rgb(255, 255, 255);
+}
+#div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    /* border: 2px solid red;  */
+    width: 700px;
+text-align: center;
+    padding: 12px;
+}
+#div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    /* border: 2px solid red;  */
+    width: 700px;
+    padding: 12px;
+    text-align: center;
+}
+#customers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    padding: 80px;
+    background: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-logos-bg-2.png?w=1024") no-repeat center 320px;
+}
+.boxes{
+    width: 160px;
+    height: 80px;
+    border: 2px solid rgb(138, 136, 136);
+    margin: 10px;
+    background-color: white;
+    border-collapse:collapse ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px grey;
+    
+
+}
+.boxes img{
+    width: 90px;
+    height:40px;
+    /* margin: px; */
+    border-radius: 10px;
+}
+#try{
+    height: 600px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 70px;
+    box-shadow: 3px 3px 3px 3px grey;
+
+}
+.try-text{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 400px;
+    height: 400px;
+margin: 10px;
+padding: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.try-img{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    padding: 12px;
+}
+.try-img img{
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    padding: 0px;
+}
+#help{
+    height: 600px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#help>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#help img{
+    width: 260px;
+    height: 260px;
+ 
+}
+#help div div{
+    text-align: center;
+    width: 260px;
+    height: 260px;
+    margin: 5px;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+#help a{
+      font-family:"ITC Avant Garde",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: 18px;
+      color:#032d60;
+}
+
+.einstien{
+    height: 600px;
+    /* border: 2px solid red; */
+    background: url('https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg-2.png?resize=2048,410')no-repeat center 300px;
+}
+.fortune{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+}
+.boxx{
+    margin: 8px;
+    padding: 6px;
+    width: 360px;
+    height: 340px;
+    flex-direction: column;
+    text-align: center;
+    font-family:"ITC Avant Garde",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; ;
+    color: #032d60;
+    font-size: 18px;
+
+    /* flex-direction: column; */
+}
+.boxx img{
+    width: 380px;
+    height: 380px;
+    /* border: 2px solid red; */
+}
+#people{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 900px;
+    /* border: 2px solid red; */
+    background: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/04/pb-hp-footer-mid3-in.jpg?resize=2048,1270")no-repeat center/cover;
+}
+#people a,p{
+    font-family:"ITC Avant Garde",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; ;
+    color: #032d60;
+    font-size: 18px;
+}
